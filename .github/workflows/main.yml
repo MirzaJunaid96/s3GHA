@@ -2,8 +2,12 @@ name: Portfolio Deployment
 
 on:
   push:
-    branches:
-    - main
+  
+  
+   branches:
+   - s3GHA
+  workflow_dispatch: 
+   
 
 jobs:
   build-and-deploy:
